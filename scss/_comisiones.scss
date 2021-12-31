@@ -1,0 +1,22 @@
+.comisiones h3{
+    color: black;
+    font-family: "Licorice", cursive;
+    font-weight: bold;
+    font-size: 35px;
+}
+.basica{
+    text-align: start;
+    font-size: 20px;
+    :hover{
+        transform: scale(1.01,1.01);
+        background-color: aqua;
+    }
+}
+.premium{
+    text-align: start;
+    font-size: 20px;
+    :hover{
+        transform: scale(1.01,1.01);
+        background-color: gold;
+    }
+}

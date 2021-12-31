@@ -1,0 +1,12 @@
+.logo:hover{
+    transform: scale(1.2,1.2);
+}
+.navbar-nav{
+    font-size: 20px;
+    font-weight: bold;
+    a:hover {
+        background: green;
+        color: white;
+        transform: scale(1.1,1.1);
+    }
+}
