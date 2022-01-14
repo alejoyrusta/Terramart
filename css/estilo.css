@@ -17,10 +17,26 @@ body {
 .navbar-nav {
   font-size: 20px;
   font-weight: bold; }
-  .navbar-nav a:hover {
-    background: green;
-    color: white;
-    transform: scale(1.1, 1.1); }
+
+.in:hover {
+  background-color: gold;
+  transform: scale(1.1, 1.1); }
+
+.gal:hover {
+  background-color: grey;
+  transform: scale(1.1, 1.1); }
+
+.com:hover {
+  background-color: orange;
+  transform: scale(1.1, 1.1); }
+
+.sm:hover {
+  background-color: turquoise;
+  transform: scale(1.1, 1.1); }
+
+.cont:hover {
+  background-color: pink;
+  transform: scale(1.1, 1.1); }
 
 footer {
   background-color: black;
@@ -33,6 +49,15 @@ footer {
   display: flex;
   justify-content: space-around; }
 
+.instagram {
+  color: violet; }
+
+.twitter {
+  color: lightblue; }
+
+.facebook {
+  color: blue; }
+
 .img-fluid {
   border: solid black; }
 
@@ -42,24 +67,18 @@ footer {
   width: 50%;
   border: solid black; }
 
-.comisiones h3 {
+.comisiones h3, .comisiones .basica h3, .comisiones .premium h3 {
   color: black;
   font-family: "Licorice", cursive;
   font-weight: bold;
   font-size: 35px; }
 
-.basica {
+.comisiones, .comisiones .basica, .comisiones .premium {
   text-align: start;
   font-size: 20px; }
-  .basica :hover {
-    transform: scale(1.01, 1.01);
+  .comisiones .basica {
     background-color: aqua; }
-
-.premium {
-  text-align: start;
-  font-size: 20px; }
-  .premium :hover {
-    transform: scale(1.01, 1.01);
+  .comisiones .premium {
     background-color: gold; }
 
 .sobremi {
@@ -74,16 +93,12 @@ footer {
 
 .contacto {
   text-align: start;
-  transition: all 1.5s;
   font-size: 20px; }
   .contacto fieldset {
     background-color: white;
     padding: 10px;
     margin: 10px;
-    border: 5px solid black;
-    transition: all 1.5s; }
-    .contacto fieldset :hover {
-      background-color: lawngreen; }
+    border: 5px solid black; }
   .contacto legend {
     background-color: white;
     text-align: center;

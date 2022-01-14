@@ -1,16 +1,11 @@
 .contacto{
     text-align: start;
-    transition: all 1.5s;
     font-size: 20px;
     fieldset{
         background-color: white;
         padding: 10px;
         margin: 10px;
         border:5px solid black;
-        transition: all 1.5s;
-        :hover{
-            background-color: lawngreen;
-        }
     }
     legend{
         background-color: white;

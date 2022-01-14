@@ -10,3 +10,20 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+$redes:(
+    ig:violet,
+    tw:lightblue,
+    fb:blue,
+);
+$ig:map-get($redes, ig );
+$tw:map-get($redes, tw );
+$fb:map-get($redes, fb );
+.instagram{
+    color: $ig;
+}
+.twitter{
+    color: $tw;
+}
+.facebook{
+    color: $fb;
+}

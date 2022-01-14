@@ -4,19 +4,15 @@
     font-weight: bold;
     font-size: 35px;
 }
-.basica{
+.comisiones{
     text-align: start;
     font-size: 20px;
-    :hover{
-        transform: scale(1.01,1.01);
+    .basica{
+        @extend .comisiones;
         background-color: aqua;
     }
-}
-.premium{
-    text-align: start;
-    font-size: 20px;
-    :hover{
-        transform: scale(1.01,1.01);
+    .premium{
+        @extend .comisiones;
         background-color: gold;
     }
 }

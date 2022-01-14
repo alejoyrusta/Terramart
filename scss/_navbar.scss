@@ -4,9 +4,23 @@
 .navbar-nav{
     font-size: 20px;
     font-weight: bold;
-    a:hover {
-        background: green;
-        color: white;
-        transform: scale(1.1,1.1);
-    }
+}
+@mixin menu($bgnav){
+    background-color: $bgnav;
+    transform: scale(1.1,1.1);
+}
+.in:hover {
+    @include menu($bgnav1);
+}
+.gal:hover{
+    @include menu($bgnav2);
+}
+.com:hover{
+    @include menu($bgnav3);
+}
+.sm:hover{
+    @include menu($bgnav4);
+}
+.cont:hover{
+    @include menu($bgnav5);
 }
