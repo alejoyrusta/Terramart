@@ -16,28 +16,28 @@
 </head>
 <body>
     <header>
-        <section>
+        <section> <!-- Barra de navegacion / menu -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <img src="../multimedia/terramart logo.png"  width="50" class="logo">
+                    <img src="../multimedia/terramart logo.png"  width="50" class="logo"> <!-- Logo terramart de la navbar-->
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link in" href="../index.html">Inicio</a>
-                        <a class="nav-link active gal" aria-current="page" href="galeria.html">Galeria</a>
+                        <a class="nav-link active gal" aria-current="page" href="galeria.html">Galeria</a> <!-- nav-link active para resaltar en el navbar la pag dond esta el usuario-->
                         <a class="nav-link com" href="comisiones.html">Comisiones</a>
                         <a class="nav-link sm" href="sobremi.html">Sobre mi</a>
                         <a class="nav-link cont" href="contacto.html">Contacto</a>
                     </div>
-                    </div>
+                    </div> 
                 </div>
-                </nav>
-        </section>
+             </nav>
+        </section> <!-- Fin de la Barra de navegacion / menu -->
     </header>
     <main>
         <br>
         <section class="dibujos">
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
+                <div class="carousel-indicators"> <!-- abajo indicadores del carousel -->
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -50,9 +50,9 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11" aria-label="Slide 12"></button>
-                </div>
-                <div class="carousel-inner">
-                <div class="carousel-item active">
+                </div> <!-- Para agregar mas imagenes, agregar la imagen abajo y arriba copiar y pegar el codigo sumando un numeroal data bs slide y al arial label-->
+                <div class="carousel-inner"> <!-- Abajo imagenes del carousel-->
+                <div class="carousel-item active"> <!-- active para el que se muestre cuando se abra la pag -->
                     <img src="../multimedia/dibujos/arbolito.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
@@ -88,17 +88,18 @@
                 <div class="carousel-item">
                     <img src="../multimedia/dibujos/peñasco.png" class="d-block w-100" alt="...">
                 </div>
-                </div>
+                </div> <!-- Fin carousel-inner-->
+                <!--Para agregar mas imagenes copiar y pegar cambiando el img src y agregar arriba la slide en el carousel indicator-->
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
-                </button>
+                </button> <!-- Boton para ver la imagen anterior -->
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
+                </button> <!-- Boton para ver la imagen siguiente -->
+            </div> <!-- Fin carousel dark slide (fin del carousel)-->
+        </section> <!-- Fin section dibujos -->
         <br>
     </main>
     <footer>
@@ -106,7 +107,7 @@
             <a href="https://www.instagram.com/terramartdibujos/" target="blank" class="instagram">Instagram</a>
             <a href="https://twitter.com/Terramart12" target="blank" class="twitter">Twitter</a>
             <a href="https://www.facebook.com/profile.php?id=100075150526028" target="blank" class="facebook">Facebook</a>
-        </section>
+        </section> <!-- fin section redes-->
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
