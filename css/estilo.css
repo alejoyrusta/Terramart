@@ -81,15 +81,12 @@ footer {
   .comisiones .premium {
     background-color: gold; }
 
-.sobremi {
-  display: flex;
-  justify-content: space-around; }
-  .sobremi h5 {
-    color: black;
-    font-family: "Licorice", cursive;
-    font-weight: bold;
-    font-size: 35px;
-    text-decoration: underline; }
+.sobremi h5 {
+  color: black;
+  font-family: "Licorice", cursive;
+  font-weight: bold;
+  font-size: 35px;
+  text-decoration: underline; }
 
 .contacto {
   text-align: start;
