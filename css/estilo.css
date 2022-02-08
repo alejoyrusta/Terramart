@@ -1,15 +1,6 @@
 body {
   background-image: radial-gradient(circle at 6.29% 75.24%, #d7ff84 0, #c0ff80 16.67%, #a4ff7a 33.33%, #83f372 50%, #5ce76c 66.67%, #26de6a 83.33%, #00d66c 100%);
-  text-align: center;
   font: bold 20px "Shadows Into Light", cursive; }
-  body h1 {
-    color: black;
-    font-family: "Licorice", cursive;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 30px;
-    padding: 10px;
-    font-size: 75px; }
 
 .logo:hover {
   transform: scale(1.2, 1.2); }
@@ -18,25 +9,22 @@ body {
   font-size: 20px;
   font-weight: bold; }
 
-.in:hover {
-  background-color: gold;
-  transform: scale(1.1, 1.1); }
-
-.gal:hover {
-  background-color: grey;
-  transform: scale(1.1, 1.1); }
-
-.com:hover {
-  background-color: orange;
-  transform: scale(1.1, 1.1); }
-
-.sm:hover {
-  background-color: turquoise;
-  transform: scale(1.1, 1.1); }
-
-.cont:hover {
-  background-color: pink;
-  transform: scale(1.1, 1.1); }
+@media only screen and (min-width: 992px) {
+  .in:hover {
+    background-color: gold;
+    transform: scale(1.1, 1.1); }
+  .gal:hover {
+    background-color: grey;
+    transform: scale(1.1, 1.1); }
+  .com:hover {
+    background-color: orange;
+    transform: scale(1.1, 1.1); }
+  .sm:hover {
+    background-color: turquoise;
+    transform: scale(1.1, 1.1); }
+  .cont:hover {
+    background-color: pink;
+    transform: scale(1.1, 1.1); } }
 
 footer {
   background-color: black;
@@ -58,20 +46,23 @@ footer {
 .facebook {
   color: blue; }
 
+body h1 {
+  color: black;
+  font-family: "Licorice", cursive;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 30px;
+  padding: 10px;
+  font-size: 75px; }
+
 .img-fluid {
   border: solid black; }
 
 .dibujos {
   margin: auto;
   padding: auto;
-  width: 50%;
+  width: 400px;
   border: solid black; }
-
-.comisiones h3, .comisiones .basica h3, .comisiones .premium h3 {
-  color: black;
-  font-family: "Licorice", cursive;
-  font-weight: bold;
-  font-size: 35px; }
 
 .comisiones, .comisiones .basica, .comisiones .premium {
   text-align: start;
@@ -80,6 +71,11 @@ footer {
     background-color: aqua; }
   .comisiones .premium {
     background-color: gold; }
+  .comisiones h5, .comisiones .basica h5, .comisiones .premium h5 {
+    color: black;
+    font-family: "Licorice", cursive;
+    font-weight: bold;
+    font-size: 35px; }
 
 .sobremi h5 {
   color: black;
@@ -90,7 +86,8 @@ footer {
 
 .contacto {
   text-align: start;
-  font-size: 20px; }
+  font-size: 20px;
+  padding: 40px; }
   .contacto fieldset {
     background-color: white;
     padding: 10px;
